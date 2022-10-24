@@ -21,8 +21,11 @@ Use this command to obtain the testing results.
 python predict.py -g 0 --batch 1 -d datasets/brain.json -c weights/Apr06-1516
 ```
 
-## Pre-trained model and testing data on LPBA40
-The [pre-trained model](https://drive.google.com/file/d/1NndVW8beu-fYjDP2mVsOf-WRnX2NCZUQ/view?usp=sharing) and [testing data](https://drive.google.com/file/d/1tU42wwc1qLlwJEI3IHcP30XqOtW0j7hb/view?usp=sharing) are available. Please unzip these files, and move the `lpba_val.h5` to `/datasets/` folder.
+## Pre-processed dataset
+We provided the processed two brain MRI dataset, i.e., [OASIS](https://drive.google.com/file/d/1tU42wwc1qLlwJEI3IHcP30XqOtW0j7hb/view?usp=sharing) and [CANDIShare](https://drive.google.com/file/d/1tU42wwc1qLlwJEI3IHcP30XqOtW0j7hb/view?usp=sharing), and a heart CT dataset, i.e., [MH-WHS 2017](https://drive.google.com/file/d/1tU42wwc1qLlwJEI3IHcP30XqOtW0j7hb/view?usp=sharing). Please unzip these files, and move the `xxx.h5` to `/datasets/` folder.
+
+## Pre-trained model
+The pre-trained model for [OASIS](https://drive.google.com/file/d/1NndVW8beu-fYjDP2mVsOf-WRnX2NCZUQ/view?usp=sharing), [CANDIShare](https://drive.google.com/file/d/1NndVW8beu-fYjDP2mVsOf-WRnX2NCZUQ/view?usp=sharing), [MH-WHS 2017](https://drive.google.com/file/d/1NndVW8beu-fYjDP2mVsOf-WRnX2NCZUQ/view?usp=sharing) are also available.
 
 ## Results
 Boxplots of Dice scores of 35 brain regions for comparison of methods. The brain regions are presented under the names and are ranked by the average numbers of the region voxels in decreasing order.
