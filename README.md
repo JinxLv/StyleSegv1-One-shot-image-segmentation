@@ -24,7 +24,7 @@ python predict.py -c weights/xxx -d ./datasets/OASIS.json -g 0 --scheme seg
 ```
 
 ## Pre-processed dataset
-We provided the processed two brain MRI dataset, i.e., [OASIS](https://drive.google.com/file/d/124AIYL2Qt39wiZV15s0RIkmU76AJcuIh/view?usp=sharing) and [CANDIShare](https://drive.google.com/file/d/1zjHp6pV_pRYFzW2lDyKaLZFg0S5cgplk/view?usp=sharing), and a heart CT dataset, i.e., [MH-WHS 2017](https://drive.google.com/file/d/194iZ9jHumUwUoscsD84d0kufCjJR6kfc/view?usp=sharing). Please unzip these files, and move the `xxx.h5` to `/datasets/` folder.
+We provided the processed two brain MRI dataset, i.e., [OASIS](https://drive.google.com/file/d/124AIYL2Qt39wiZV15s0RIkmU76AJcuIh/view?usp=sharing) and [CANDIShare](https://drive.google.com/file/d/1zjHp6pV_pRYFzW2lDyKaLZFg0S5cgplk/view?usp=sharing), and a heart CT dataset, i.e., [MH-WHS 2017](https://drive.google.com/file/d/194iZ9jHumUwUoscsD84d0kufCjJR6kfc/view?usp=sharing). Please unzip these files, and move them to `/datasets/` folder.
 
 ## Pre-trained model
 The pre-trained model for OASIS, CANDIShare, MH-WHS 2017 are also [available](https://drive.google.com/file/d/1zpZdjuXgX-VWuTRNyqSAAH0x-YPMdLry/view?usp=sharing).
@@ -37,7 +37,7 @@ Boxplots of Dice scores of 35 brain regions for comparison of methods. The brain
 <img src="./Figure/boxplot.png" width="1000px">
 
 
-The visualization of segmentation results for different dual-model iterative learning methods. From left to right are raw image, UNet trained with 5 atlas, Pc-Reg-RT, Brainstorm, DeepAtlas, our method, and the ground-truth of segmentation. The implementation of UNet, Pc-Reg-RT, Brainstorm and DeepAtlas are all used their offical released source code.
+The visualization of segmentation results for different dual-model iterative learning methods. From left to right are raw image, UNet trained with 5 atlas, Brainstorm, DeepAtlas, our method, and the ground-truth of segmentation. The implementation of [Brainstorm](https://github.com/xamyzhao/brainstorm) and [DeepAtlas](https://github.com/uncbiag/DeepAtlas) are all used their offical released source code.
 <img src="./Figure/visulization.png" width="900px">
 
 We also visualize the segmentation results of [MH-WHS 2017] dataset.
