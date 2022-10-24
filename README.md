@@ -25,13 +25,13 @@ python predict.py -g 0 --batch 1 -d datasets/brain.json -c weights/Apr06-1516
 The [pre-trained model](https://drive.google.com/file/d/1NndVW8beu-fYjDP2mVsOf-WRnX2NCZUQ/view?usp=sharing) and [testing data](https://drive.google.com/file/d/1tU42wwc1qLlwJEI3IHcP30XqOtW0j7hb/view?usp=sharing) are available. Please unzip these files, and move the `lpba_val.h5` to `/datasets/` folder.
 
 ## Results
-# Boxplots of Dice scores of 35 brain regions for comparison of methods. The brain regions are presented under the names and are ranked by the average numbers of the region voxels in decreasing order.
+Boxplots of Dice scores of 35 brain regions for comparison of methods. The brain regions are presented under the names and are ranked by the average numbers of the region voxels in decreasing order.
 <img src="./Figure/boxplot.png" width="800px">
 
-# The visualization of our proposed Image-aligned Style Transformation module.
+The visualization of our proposed Image-aligned Style Transformation module.
 <img src="./Figure/Fourier_vis.png" width="800px">
 
-# The visualization of segmentation results for different dual-model iterative learning methods. From left to right are raw image, UNet trained with 5 atlas, Pc-Reg-RT, Brainstorm, DeepAtlas, our method, and the ground-truth of segmentation. The implementation of UNet, Pc-Reg-RT, Brainstorm and DeepAtlas are all used their offical released source code.
+The visualization of segmentation results for different dual-model iterative learning methods. From left to right are raw image, UNet trained with 5 atlas, Pc-Reg-RT, Brainstorm, DeepAtlas, our method, and the ground-truth of segmentation. The implementation of UNet, Pc-Reg-RT, Brainstorm and DeepAtlas are all used their offical released source code.
 <img src="./Figure/visulization.png" width="800px">
 
 ## Acknowledgment
