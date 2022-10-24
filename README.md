@@ -29,14 +29,16 @@ The pre-trained model for [OASIS](https://drive.google.com/file/d/1NndVW8beu-fYj
 
 ## Results
 Boxplots of Dice scores of 35 brain regions for comparison of methods. The brain regions are presented under the names and are ranked by the average numbers of the region voxels in decreasing order.
-<img src="./Figure/boxplot.png" width="900px">
+<img src="./Figure/boxplot.png" width="1000px">
 
 The visualization of our proposed Image-aligned Style Transformation module.
 <img src="./Figure/Fourier_vis.png" width="900px">
 
 The visualization of segmentation results for different dual-model iterative learning methods. From left to right are raw image, UNet trained with 5 atlas, Pc-Reg-RT, Brainstorm, DeepAtlas, our method, and the ground-truth of segmentation. The implementation of UNet, Pc-Reg-RT, Brainstorm and DeepAtlas are all used their offical released source code.
 <img src="./Figure/visulization.png" width="900px">
+
 We also visualize the segmentation results of [MH-WHS 2017] dataset.
+
 <img src="./Figure/heart_ct.png" width="500px">
 
 ## Acknowledgment
