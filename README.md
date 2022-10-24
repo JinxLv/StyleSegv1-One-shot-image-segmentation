@@ -37,6 +37,8 @@ The visualization of our proposed Image-aligned Style Transformation module.
 The visualization of segmentation results for different dual-model iterative learning methods. From left to right are raw image, UNet trained with 5 atlas, Pc-Reg-RT, Brainstorm, DeepAtlas, our method, and the ground-truth of segmentation. The implementation of UNet, Pc-Reg-RT, Brainstorm and DeepAtlas are all used their offical released source code.
 <img src="./Figure/visulization.png" width="900px">
 
+<img src="./Figure/vis_heart.png" width="900px">
+
 ## Acknowledgment
 
 Some codes are modified from [RCN](https://github.com/microsoft/Recursive-Cascaded-Networks) and [VoxelMorph](https://github.com/voxelmorph/voxelmorph).
