@@ -9,7 +9,7 @@ The packages and their corresponding version we used in this repository are list
 - tflearn==0.5.0
 
 ## Training
-After configuring the environment, please use this command to train the model. The training process consists of unsupervised training of reg-model(reg0), supervised training of seg-model with image transferred by IST(seg0), and the weakly supervised training of reg-model(reg1).
+After configuring the environment, please use this command to train the model. The training process consists of unsupervised training of reg-model (reg0), supervised training of seg-model with image transferred by IST (seg0), and the weakly supervised training of reg-model (reg1).
 
 ```sh
 python train.py --lr 1e-4  -d ./dataset/OASIS.json -c weights/xxx --clear_steps -g 0 --round 2000 --scheme reg #reg0
