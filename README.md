@@ -37,7 +37,7 @@ Boxplots of Dice scores of 35 brain regions for comparison methods on OASIS data
 <img src="./Figure/boxplot.png" width="1000px">
 
 
-The visualization of segmentation results for different dual-model iterative learning methods. From left to right are raw image, UNet trained with 5 atlas, Brainstorm, DeepAtlas, our method, and the ground-truth of segmentation. The implementation of [Brainstorm](https://github.com/xamyzhao/brainstorm) and [DeepAtlas](https://github.com/uncbiag/DeepAtlas) are all used their offical released source code.
+The visualization of segmentation results for different dual-model iterative learning methods. From left to right are raw image, UNet trained with 5 atlas, Brainstorm, DeepAtlas, our method, and the ground-truth of segmentation. The implementation of [Brainstorm](https://github.com/xamyzhao/brainstorm) and [DeepAtlas](https://github.com/uncbiag/DeepAtlas) are all used their offical released source code. The Brainstorm, DeepAtlas and our method are all trained with one atlas (labeled image).
 <img src="./Figure/visulization.png" width="900px">
 
 Furthermore, we also evaluated the generalization performance of our method on the other modality, i.e., heart CT [MH-WHS 2017](https://zmiclab.github.io/zxh/0/mmwhs/) dataset. We randomly selected three cases from the segmentation results, and visualized them below.
