@@ -27,7 +27,7 @@ python predict.py -c weights/xxx -d ./datasets/OASIS.json -g 0 --scheme seg
 We provided the processed two brain MRI dataset, i.e., [OASIS](https://drive.google.com/file/d/124AIYL2Qt39wiZV15s0RIkmU76AJcuIh/view?usp=sharing) and [CANDIShare](https://drive.google.com/file/d/1zjHp6pV_pRYFzW2lDyKaLZFg0S5cgplk/view?usp=sharing), and a heart CT dataset, i.e., [MH-WHS 2017](https://drive.google.com/file/d/194iZ9jHumUwUoscsD84d0kufCjJR6kfc/view?usp=sharing). Please unzip these files, and move them to `/datasets/` folder.
 
 ## Pre-trained model
-The pre-trained model for OASIS, CANDIShare, MH-WHS 2017 are also [available](https://drive.google.com/file/d/1zpZdjuXgX-VWuTRNyqSAAH0x-YPMdLry/view?usp=sharing). Please unzip and put them into the `/weights/` folder.
+The pre-trained model for OASIS, CANDIShare, MH-WHS 2017 are also [available](https://drive.google.com/file/d/11HGKeJa7Q2PUCvMdXEdbLIp5NrMBX6QV/view?usp=sharing). Please unzip and put them into the `/weights/` folder.
 
 ## Results
 The visualization of our proposed Image-aligned Style Transformation module. The style-transferred atlas w/ IST presents a highly similar appearance with the target unlabeled image, while that w/o IST contains lots of artifacts.
