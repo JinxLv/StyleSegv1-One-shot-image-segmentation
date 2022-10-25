@@ -30,7 +30,7 @@ We provided the processed two brain MRI dataset, i.e., [OASIS](https://drive.goo
 The pre-trained model for OASIS, CANDIShare, MH-WHS 2017 are also [available](https://drive.google.com/file/d/1zpZdjuXgX-VWuTRNyqSAAH0x-YPMdLry/view?usp=sharing). Please unzip and put them into the `/weights/` folder.
 
 ## Results
-The visualization of our proposed Image-aligned Style Transformation module.
+The visualization of our proposed Image-aligned Style Transformation module. The style-transferred atlas w/ IST presents a highly similar appearance with the target unlabeled image, while that w/o IST contains lots of artifacts.
 <img src="./Figure/Fourier_vis.png" width="900px">
 
 Boxplots of Dice scores of 35 brain regions for comparison methods on OASIS dataset. The brain regions are presented under the plot and are ranked by the average numbers of the region voxels in decreasing order.
