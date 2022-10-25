@@ -27,13 +27,13 @@ python predict.py -c weights/xxx -d ./datasets/OASIS.json -g 0 --scheme seg
 We provided the processed two brain MRI dataset, i.e., [OASIS](https://drive.google.com/file/d/124AIYL2Qt39wiZV15s0RIkmU76AJcuIh/view?usp=sharing) and [CANDIShare](https://drive.google.com/file/d/1zjHp6pV_pRYFzW2lDyKaLZFg0S5cgplk/view?usp=sharing), and a heart CT dataset, i.e., [MH-WHS 2017](https://drive.google.com/file/d/194iZ9jHumUwUoscsD84d0kufCjJR6kfc/view?usp=sharing). Please unzip these files, and move them to `/datasets/` folder.
 
 ## Pre-trained model
-The pre-trained model for OASIS, CANDIShare, MH-WHS 2017 are also [available](https://drive.google.com/file/d/1zpZdjuXgX-VWuTRNyqSAAH0x-YPMdLry/view?usp=sharing).
+The pre-trained model for OASIS, CANDIShare, MH-WHS 2017 are also [available](https://drive.google.com/file/d/1zpZdjuXgX-VWuTRNyqSAAH0x-YPMdLry/view?usp=sharing). Please unzip and put them into the `/weights/` folder.
 
 ## Results
 The visualization of our proposed Image-aligned Style Transformation module.
 <img src="./Figure/Fourier_vis.png" width="900px">
 
-Boxplots of Dice scores of 35 brain regions for comparison of methods. The brain regions are presented under the names and are ranked by the average numbers of the region voxels in decreasing order.
+Boxplots of Dice scores of 35 brain regions for comparison methods on OASIS dataset. The brain regions are presented under the names and are ranked by the average numbers of the region voxels in decreasing order.
 <img src="./Figure/boxplot.png" width="1000px">
 
 
