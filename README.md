@@ -33,7 +33,7 @@ The pre-trained model for OASIS, CANDIShare, MH-WHS 2017 are also [available](ht
 The visualization of our proposed Image-aligned Style Transformation module.
 <img src="./Figure/Fourier_vis.png" width="900px">
 
-Boxplots of Dice scores of 35 brain regions for comparison methods on OASIS dataset. The brain regions are presented under the names and are ranked by the average numbers of the region voxels in decreasing order.
+Boxplots of Dice scores of 35 brain regions for comparison methods on OASIS dataset. The brain regions are presented under the plot and are ranked by the average numbers of the region voxels in decreasing order.
 <img src="./Figure/boxplot.png" width="1000px">
 
 
