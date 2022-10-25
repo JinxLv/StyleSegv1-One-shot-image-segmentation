@@ -42,7 +42,7 @@ The visualization of segmentation results for different dual-model iterative lea
 
 <img src="./Figure/visulization.png" width="900px">
 
-Furthermore, we also evaluated the generalization performance of our method on the other modality, i.e., 3D heart CT [MH-WHS 2017](https://zmiclab.github.io/zxh/0/mmwhs/) dataset. We randomly selected three cases from the segmentation results, and visualized them below.
+Furthermore, we also evaluated the generalization performance of our method on the other modality, i.e., 3D heart CT [MH-WHS 2017](https://zmiclab.github.io/zxh/0/mmwhs/) dataset. One labeled image (atlas) is selected randomly together with the 40 unlabeled images as a training set, the remaining 19 labeled images were utilized as test set. We randomly selected three cases from the segmentation results, and the visualization results are shown below.
 
 <img src="./Figure/heart_ct_1.png" width="500px">
 
