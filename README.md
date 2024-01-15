@@ -1,5 +1,5 @@
 # StyleSeg: One-shot-Segmentation-of-Brain-Tissues-via-Image-aligned-Style-Transformation
-This is the implementation of the [StyleSeg]([https://github.com/uncbiag/DeepAtlas](https://ojs.aaai.org/index.php/AAAI/article/view/25276)): Robust One-shot Segmentation of Brain Tissues via Image-aligned Style Transformation
+This is the implementation of the [StyleSeg](https://ojs.aaai.org/index.php/AAAI/article/view/25276): Robust One-shot Segmentation of Brain Tissues via Image-aligned Style Transformation
 
 ## Install
 The packages and their corresponding version we used in this repository are listed in below.
@@ -43,7 +43,13 @@ Furthermore, we also evaluated the generalization performance of our method on t
 ## Citation
 If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
 ```
-@article{Lv_Zeng_Wang_Duan_Wang_Li_2023, number={2}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Lv, Jinxin and Zeng, Xiaoyu and Wang, Sheng and Duan, Ran and Wang, Zhiwei and Li, Qiang}, year={2023}, month={Jun.}, pages={1861-1869} }
+@article{Lv_Zeng_Wang_Duan_Wang_Li_2023,
+number={2},
+journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+author={Lv, Jinxin and Zeng, Xiaoyu and Wang, Sheng and Duan, Ran and Wang, Zhiwei and Li, Qiang},
+year={2023},
+month={Jun.},
+pages={1861-1869} }
 
 ```
 
