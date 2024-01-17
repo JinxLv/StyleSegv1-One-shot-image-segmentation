@@ -1,4 +1,4 @@
-# StyleSeg: One-shot-Segmentation-of-Brain-Tissues-via-Image-aligned-Style-Transformation
+# StyleSeg: One shot Segmentation of Brain Tissues via Image aligned Style Transformation
 This is the implementation of the [StyleSeg](https://ojs.aaai.org/index.php/AAAI/article/view/25276): Robust One-shot Segmentation of Brain Tissues via Image-aligned Style Transformation
 
 ## Install
